@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        ::selection {
+            background: lightblue;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-basket'></i>YBASKET</a>
+
+
+        <!--menu-icon-->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!--nav-list-->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+        <!--profile-->
+        <div class="profile">
+            <a class="face"><i class='bx bxs-face'></i></a>
+            <span>Batman</span>
+            <i class='bx bx-caret-down'></i>
+        </div>
+
+    </header>
+
+    <!--home-->
+    <section class="home swiper" id="home">
+
+        <!--slide1-->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>welcome to YBASKET</span>
+                    <h1>Discover <br> the best salad <br> from around <br>the world</h1>
+                    <a href="#" class="btn">Shop Now<i class='bx bxs-right-arrow-circle'></i></a>
+                </div>
+                <img src="photo.jpg" alt="" id="photo1">
+            </div>
+
+            <!--slide2-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>10% discount on first order</span>
+                    <h1>Delivery <br> in 10 minutes <br> at your doorstep </h1>
+                </div>
+                <img src="photo2.jpg" alt="" id="photo2">
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
+
+    <!--categories-->
+    <section class="categories" id="categories">
+        <div class="heading">
+            <h1>Browse Our Hottest<br><span>Categories</h1>
+            <a href="#" class="btn">See All<i class='bx bxs-right-arrow-circle'></i></a>
+        </div>
+
+        <!--categories-container-->
+        <div class="categories-container">
+            <!--fruits-->
+            <div class="box box1">
+                <img src="fruits.png" alt="">
+                <h2>Fruits</h2>
+                <span>22 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+            <!--vegetables-->
+            <div class="box box2">
+                <img src="veg.png" alt="">
+                <h2>Vegetables</h2>
+                <span>22 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+            <!--drinks-->
+            <div class="box box3">
+                <img src="drinks.png" alt="">
+                <h2>Drinks</h2>
+                <span>22 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+            <!--nuts-->
+            <div class="box box4">
+                <img src="nuts.png" alt="">
+                <h2>Nuts</h2>
+                <span>22 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+            <!--spices-->
+            <div class="box box5">
+                <img src="spice.png" alt="">
+                <h2>Spices</h2>
+                <span>22 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <!--products-->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Most Popular <span>Products</h1>
+            <a href="#" class="btn">See All<i class='bx bxs-right-arrow-circle'></i></a>
+        </div>
+
+        <!--products-container-->
+        <div class="products-container">
+            <!--peaches-->
+            <div class="box ">
+                <img src="peaches.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br> fruits 250g</h2>
+                <h3 class="price">$7.99<span>/kg</span></h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!--pears-->
+            <div class="box">
+                <img src="pears.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br> fruits 250g</h2>
+                <h3 class="price">$7.99<span>/kg</span></h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!--carrot-->
+            <div class="box">
+                <img src="carrot.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br> fruits 250g</h2>
+                <h3 class="price">$7.99<span>/kg</span></h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-25%</span>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section class="about" id="about">
+        <img src="salad.png" alt="">
+        <div class="about-text">
+            <span>ABOUT US</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod exercitationem inventore esse sapiente
+                totam maiores rerum fugit reprehenderit, ut dicta, similique ipsum tempora? Labore a excepturi totam
+                nihil repellat. Et?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod exercitationem inventore esse sapiente
+                    totam maiores rerum fugit reprehenderit, ut dicta, similique ipsum tempora? Labore a excepturi totam
+                    nihil repellat. Et?</p>
+            <a href="#" class="btn">Learn More<i class='bx bxs-right-arrow-circle'></i></a>
+        </div>
+    </section>
+
+    <!--copyright-->
+    <div class="copyright">
+        <p>&#169; yashnabaweja all rights reserved</p>
+    </div>
+
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--link to js-->
+    <script src="main.js"></script>
+</body>
+
+</html>
